@@ -7,10 +7,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bijiben\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=bijiben&keywords=I18N+L10N&component=general\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=bijiben&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2015-03-17 03:55+0000\n"
-"PO-Revision-Date: 2015-03-17 09:15+0100\n"
+"PO-Revision-Date: 2015-03-26 15:57+0100\n"
 "Last-Translator: Milo Casagrande <milo@milo.name>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
@@ -51,9 +50,7 @@ msgstr "Carattere personalizzato"
 
 #: ../data/org.gnome.bijiben.gschema.xml.h:2
 msgid "The font name set here will be used as the font when displaying notes."
-msgstr ""
-"Il tipo di carattere impostato qui verrà usato come predefinito per la "
-"visualizzazione delle note."
+msgstr "Il tipo di carattere impostato qui verrà usato come predefinito per la visualizzazione delle note."
 
 #: ../data/org.gnome.bijiben.gschema.xml.h:3
 msgid "Whether to use the system monospace font"
@@ -64,11 +61,8 @@ msgid "New notes color."
 msgstr "Colore delle nuove note."
 
 #: ../data/org.gnome.bijiben.gschema.xml.h:5
-msgid ""
-"The color name set here will be used as the color when creating new notes."
-msgstr ""
-"Il colore impostato qui verrà usato come predefinito quando verranno create "
-"nuove note."
+msgid "The color name set here will be used as the color when creating new notes."
+msgstr "Il colore impostato qui verrà usato come predefinito quando verranno create nuove note."
 
 #: ../data/org.gnome.bijiben.gschema.xml.h:6
 msgid "Primary notes provider to use for new notes."
@@ -462,26 +456,46 @@ msgstr "Locale"
 msgid "Local storage"
 msgstr "Archivio locale"
 
-#: ../src/resources/app-menu.ui.h:1
+#: ../src/resources/app-menu.ui:5
 msgid "_Import Notes"
 msgstr "_Importa note"
 
-#: ../src/resources/app-menu.ui.h:2
+#: ../src/resources/app-menu.ui:9
 msgid "_View Trash"
 msgstr "_Visualizza cestino"
 
-#: ../src/resources/app-menu.ui.h:3
+#: ../src/resources/app-menu.ui:15
 msgid "_Preferences"
 msgstr "Preferen_ze"
 
-#: ../src/resources/app-menu.ui.h:4
+#: ../src/resources/app-menu.ui:21
 msgid "_Help"
 msgstr "A_iuto"
 
-#: ../src/resources/app-menu.ui.h:5
+#: ../src/resources/app-menu.ui:25
 msgid "_About"
 msgstr "I_nformazioni"
 
-#: ../src/resources/app-menu.ui.h:6
+#: ../src/resources/app-menu.ui:29
 msgid "_Quit"
 msgstr "_Esci"
+
+#: ../help/C/colors.page:34
+msgid "<desc>Edit the note background color.</desc>"
+msgstr "<desc>Modificare lo sfondo della nota.</desc>"
+
+#: ../help/C/colors.page:37
+msgid "<title>Change note color</title>"
+msgstr "<title>Cambia il colore della nota</title>"
+
+#: ../help/C/colors.page:39
+msgid "<p>You can change the background colour of a note to emphasize it or to differentiate it from other notes.</p>"
+msgstr "<p> Puoi cambiare lo sfondo di una delle note per enfatizzarla, oppure per differenziarla dalle altre.</p>"
+
+#: ../help/C/colors.page:43
+msgid "<title>To change the color of an individual note:</title>"
+msgstr "<title> Per modificare il colore di una singola nota:</title>"
+
+#: ../help/C/colors.page:45
+msgid "<p>Click on the note to open it.</p>"
+msgstr "<p>Clicca sulla nota per aprirla.</p>"
